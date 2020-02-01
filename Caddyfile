@@ -1,0 +1,6 @@
+domain:80 {
+        root * wwwdir
+        encode gzip
+        #templates
+        file_server browse
+}
